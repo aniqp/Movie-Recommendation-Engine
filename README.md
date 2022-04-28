@@ -2,7 +2,7 @@
 
 This app implements a [content-based movie recommendation engine](https://www.analyticssteps.com/blogs/what-content-based-recommendation-system-machine-learning) using a cosine similarity algorithm and the NumPy, pandas and scikit-learn libraries.
 
-A list of 5000 movies from IMDB are used in this project. Using a combination of the words in the 'keywords' and 'genre' columns from the dataset, each movie is represented as a vector, with each word representing a dimension. The cosine of the angle between the vectors is calculated to determine how similar the movies are.
+A list of 5000 movies from IMDB are used in this project. Using a combination of the words in the 'keywords' and 'genre' columns from the dataset, each movie is plotted as a vector, with each word representing a dimension. The cosine of the angle between the vectors is calculated to determine how similar the movies are.
 
 ![Movie Recommendation Engine Demo](movie_demo.png)
 
