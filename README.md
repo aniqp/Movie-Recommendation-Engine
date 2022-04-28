@@ -7,19 +7,16 @@ A list of 5000 movies from IMDB are used in this project. Using a combination of
 ![Movie Recommendation Engine Demo](movie_demo.png)
 
 
-## Getting Started
----
+# Getting Started
 
-### Installing pip
----
+## Installing pip
 First, make sure you have ```pip``` installed on your system. Run the following command to display the current version of ```pip``` installed on your system:
 
 * Windows: ```py -m pip --version```
 
 * Unix/MacOS: ```python3 -m pip install --user virtualenv```
 
-### Installing and creating a virtual environment
----
+## Installing and creating a virtual environment
 Install virtual environments with the following:
 
 * Windows: ```py -m pip install --user virtualenv```
@@ -37,6 +34,5 @@ To activate the environment, run ```env\Scripts\activate``` on Windows and ```so
 To install the packages required for the project, run ```py -m pip install -r requirements.txt``` on Windows and ```python3 -m pip install -r requirements.txt``` on Unix/MacOS.
 
 ## Usage Guide
----
 In the terminal, run the ```flask run``` command. Click the link provided by the ```Running on:``` statement in the terminal. Once the app is open, enter a movie into the form. If it exists in the database, you will be recommended 50 movies similar to it!
 
