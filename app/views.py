@@ -5,7 +5,7 @@ from movie_recommender import *
 from flask import render_template, request
 
 # this function runs when a person enters this URL on the website
-# render_template will render the site in the html format specified by the index.html file
+## render_template will render the site in the html format specified by the index.html file
 @app.route("/", methods = ["GET", "POST"])
 def index():
 
